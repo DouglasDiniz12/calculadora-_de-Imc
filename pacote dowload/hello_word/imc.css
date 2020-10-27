@@ -1,0 +1,59 @@
+body{
+    background: white;
+    font:normal 15pt arial;
+
+
+}
+header{
+    color: white;
+    text-align: center;
+
+
+
+}
+#menu{
+    float: right;
+    background: #90ee90;
+    border-top: 2px #FFFFFF solid;/*borda do topo*/
+    margin: 30px 0 0 0; /*margem*/
+
+}
+#menu ul/*lista do menu*/
+{ 
+    margin: 0px 0 0 0;
+    padding: 0px 0px 0px 0px;
+
+    list-style: none;/*lista sem marcador*/
+    line-height: normal;/*altura de linha normal*/
+}
+#menu li 
+{
+    float: left; 
+    margin: 0px 0px 0px 1px;
+}
+#menu a 
+{ 
+    display: block;/*não deve se mexer*/
+    width: auto;/*largura automatica*/
+    height: 28px;/*altura*/
+    padding: 12px 20px 0px 20px;
+    background: url(images/img02.jpg) no-repeat right 50%;/*imagem de fundo*/
+}
+section{
+    background: #90ee90;
+    border-radius: 10px;
+    padding:  15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+
+
+
+}
+footer{
+    color: #1C1C1C;
+    text-align: center;
+    font-style: italic;
+
+
+}
